@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttackImprovementMod", "AttackImprovementMod\AttackImprovementMod.csproj", "{02C8AB19-160A-474F-9135-5C72B38CE1B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttackImprovementMod", "AttackImprovementMod.csproj", "{02C8AB19-160A-474F-9135-5C72B38CE1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F9E7A2A1-21AC-4158-A336-996596E538AE}
+		SolutionGuid = {660DC208-5A3E-453B-9502-BB136BEC7532}
 	EndGlobalSection
 EndGlobal
