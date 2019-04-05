@@ -3,7 +3,9 @@
 
 # mod specific ignores
 log.txt
+Log_*
 *.dll
+settings.json
 
 # User-specific files
 *.suo
