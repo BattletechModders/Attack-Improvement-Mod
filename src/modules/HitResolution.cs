@@ -110,7 +110,7 @@ namespace Sheepy.BattleTechMod.AttackImprovementMod {
          if ( ! ( message is AttackSequenceImpactMessage impactMessage ) ) return;
          WeaponHitInfo info = impactMessage.hitInfo;
          currentImpact = info.attackSequenceId;
-         currentRoll = info.toHitRolls[ impactMessage.hitIndex ];
+         currentRoll = (impactMessage.hitIndex < info.toHitRolls.Length)?info.toHitRolls[ impactMessage.hitIndex ]:0f;
       }
       
       public static void ClearImpact () {
